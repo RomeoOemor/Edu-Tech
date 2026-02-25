@@ -441,13 +441,14 @@ document.addEventListener('keydown', (e) => {
 //Downloads the broucher
 function downloadBrochure() {
     const link = document.createElement("a");
-    link.href = "images/BEHS_logo.png";
-    link.download = "BEHS_logo.png";
+    link.href = "download/edu-tech broucher.pdf";
+    link.download = "edu-tech broucher.pdf";
     link.click();
 }
 
 // Print console welcome message
 console.log('%c🎓 Edu-Tech - Empowering Education Through Technology', 'color: #00d4ff; font-size: 18px; font-weight: bold;');
 console.log('%cWebsite developed with modern web technologies', 'color: #ff00ff; font-size: 12px;');
+
 
 
